@@ -2,6 +2,9 @@
 
 [Русская версия](README.ru.md) · [Product website](https://memorasolutions.ru) · [Repositories](https://github.com/arar228?tab=repositories)
 
+[Browse the public project catalogue](PROJECTS.md) — product case studies, frontend
+experiments, Telegram tools, learning material and ecosystem work.
+
 I build web products, Telegram Mini Apps and interactive tools. My projects connect **React interfaces, server-side logic and data storage** with tests and release workflows.
 
 ## Selected work
