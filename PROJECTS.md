@@ -2,7 +2,7 @@
 
 [Back to the portfolio](README.md)
 
-A map of the 19 public project repositories in this account, alongside the
+A map of the 20 public project repositories in this account, alongside the
 profile repository itself. Each repository describes its own setup and scope.
 An available source repository and a currently running service are different
 things; deployment status is stated only where verified.
@@ -14,6 +14,7 @@ things; deployment status is stated only where verified.
 | [Memora Solutions](https://github.com/arar228/memora-solutions) | React products, Node.js integrations, Electron reuse, release and recovery workflows | Product platform; VPS health checked on 2026-09-07 |
 | [Night Arcade](https://github.com/arar228/potato) | React/Fastify, shared contracts, wallet ledger and server-owned game rules | Play-money full-stack prototype |
 | [Procedural GPU](https://github.com/arar228/nepotato-threejs-gpu) | TypeScript geometry, component API and Three.js browser rendering | Reusable graphics library and demo |
+| [RuMarket](https://github.com/arar228/rumarket-showcase) | Automated official-data collection, quantitative models, validation gates and source-aware presentation | Live analytical product; public repository is a documentation-only engineering case study |
 | [TON Subscriptions Protocol](https://github.com/arar228/ton-subscriptions-protocol) | Tolk contracts, asynchronous state transitions and sandbox tests | Contract research; real-funds use requires separate review |
 
 ## Frontend and interaction work
@@ -57,5 +58,5 @@ per repository.
   contributions should be reviewed through commit history.
 
 Private operational repositories and their data remain outside this public
-catalogue. The selected case studies on the profile are the starting point for a
-full-stack engineering review.
+catalogue. The profile and this catalogue provide complementary views of the
+full project portfolio.

@@ -1,15 +1,15 @@
 <img src="assets/cover.svg" width="100%" alt="nepotato — full-stack разработка. Интерфейсы, системы, выпуск продукта." />
 
-[English](README.md) · [Продукты](https://memorasolutions.ru) · [Репозитории](https://github.com/arar228?tab=repositories)
+[English](README.md) · [Memora](https://memorasolutions.ru) · [RuMarket](https://statik.obdrisher.ru/) · [Репозитории](https://github.com/arar228?tab=repositories)
 
 [Каталог публичных проектов](PROJECTS.md) — продуктовые кейсы, frontend-эксперименты,
 Telegram-инструменты, учебные работы и участие в экосистеме.
 
 Разрабатываю веб-продукты, Telegram Mini Apps и интерактивные инструменты. В проектах соединяю **React-интерфейс, серверную логику и хранение данных** с тестами и процессом выпуска.
 
-## Избранные проекты
+## Портфолио проектов
 
-### 01 / Memora Solutions
+### Memora Solutions
 
 **Продуктовая платформа · React / Node.js / PostgreSQL / Python / Electron**
 
@@ -21,7 +21,7 @@ Telegram-инструменты, учебные работы и участие �
 
 [Открыть продукт](https://memorasolutions.ru) · [Код](https://github.com/arar228/memora-solutions) · [Архитектура](https://github.com/arar228/memora-solutions/blob/master/docs/architecture.md) · [CI](https://github.com/arar228/memora-solutions/actions/workflows/ci.yml)
 
-### 02 / Night Arcade
+### Night Arcade
 
 **Full-stack прототип · TypeScript / React / Fastify / Prisma / PostgreSQL**
 
@@ -35,7 +35,7 @@ Telegram Mini App с виртуальными игровыми очками, ж�
 
 [Код и запуск](https://github.com/arar228/potato) · [Инженерный кейс](https://github.com/arar228/potato/blob/main/docs/CASE_STUDY.md)
 
-### 03 / Procedural GPU
+### Procedural GPU
 
 **Интерактивная графика · TypeScript / Three.js / WebGL**
 
@@ -45,7 +45,19 @@ Telegram Mini App с виртуальными игровыми очками, ж�
 
 [Открыть демо](https://arar228.github.io/nepotato-threejs-gpu/) · [Код и API](https://github.com/arar228/nepotato-threejs-gpu)
 
-### 04 / TON Subscriptions Protocol
+### RuMarket
+
+**Экономическая аналитика · Python / pandas / NumPy / SciPy / JavaScript**
+
+Объяснимый автоматически обновляемый монитор экономики России и финансовых рынков. Он объединяет официальную статистику, рыночные цены, кредитные условия и корпоративную отчётность в интерфейсе с указанием источников.
+
+- Автоматический сбор данных Московской биржи, Банка России, Росстата и Минфина.
+- Проверки актуальности, покрытия, допустимых диапазонов и обязательных бюджетных показателей.
+- Обновления по расписанию, снимки состояния, последняя успешная версия данных и проверки восстановления публикации.
+
+[Открыть продукт](https://statik.obdrisher.ru/) · [Инженерный кейс](https://github.com/arar228/rumarket-showcase) · [Архитектура](https://github.com/arar228/rumarket-showcase/blob/main/docs/architecture.md)
+
+### TON Subscriptions Protocol
 
 **Контрактная логика · Tolk / TypeScript / TON Sandbox**
 
@@ -62,12 +74,13 @@ Telegram Mini App с виртуальными игровыми очками, ж�
 | Как общий интерфейс работает с разным хранением в web и desktop? | [Карта компонентов Memora](https://github.com/arar228/memora-solutions/blob/master/docs/component-map.md) |
 | Как устроены повтор платёжного запроса и откат релиза? | [Эксплуатация Memora](https://github.com/arar228/memora-solutions/blob/master/docs/operations.md) |
 | Какие правила принадлежат серверу? | [Кейс Night Arcade](https://github.com/arar228/potato/blob/main/docs/CASE_STUDY.md) |
+| Как аналитический конвейер показывает качество и актуальность источников? | [Архитектура RuMarket](https://github.com/arar228/rumarket-showcase/blob/main/docs/architecture.md) |
 | Что происходит при возврате асинхронного перевода? | [Тесты bounce-сценариев](https://github.com/arar228/ton-subscriptions-protocol/blob/master/tests/ChannelJettonBounce.spec.ts) |
 
 ## Стек проектов
 
 **Интерфейс** — TypeScript, React, Vite, Tailwind CSS, Three.js<br>
-**Сервер и данные** — Node.js, Fastify, Python, PostgreSQL, Prisma, Zod<br>
+**Сервер и данные** — Node.js, Fastify, Python, PostgreSQL, Prisma, Zod, pandas, NumPy, SciPy<br>
 **Выпуск и проверка** — GitHub Actions, unit-тесты, воспроизводимые сборки, health checks
 
 В каждом репозитории указаны команды запуска и границы проверки. Опубликованные продукты, локальные прототипы и контрактные эксперименты имеют отдельные обозначения статуса.
