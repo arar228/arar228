@@ -2,7 +2,7 @@
 
 [Back to the portfolio](README.md)
 
-A map of the 20 public project repositories in this account, alongside the
+A map of selected public project repositories in this account, alongside the
 profile repository itself. Each repository describes its own setup and scope.
 An available source repository and a currently running service are different
 things; deployment status is stated only where verified.
@@ -12,6 +12,7 @@ things; deployment status is stated only where verified.
 | Project | What to explore | Scope |
 | --- | --- | --- |
 | [Memora Solutions](https://github.com/arar228/memora-solutions) | React products, Node.js integrations, Electron reuse, release and recovery workflows | Product platform; VPS health checked on 2026-09-07 |
+| [VPN Bridge](https://github.com/arar228/vpn-bridge-showcase) | Two-node Hysteria2/REALITY route, transport encryption, template generation, subscription profiles and monitoring | Sanitized showcase with synthetic data, runnable Python tools and tests |
 | [Night Arcade](https://github.com/arar228/potato) | React/Fastify, shared contracts, wallet ledger and server-owned game rules | Play-money full-stack prototype |
 | [Procedural GPU](https://github.com/arar228/nepotato-threejs-gpu) | TypeScript geometry, component API and Three.js browser rendering | Reusable graphics library and demo |
 | [RuMarket](https://github.com/arar228/rumarket-showcase) | Automated official-data collection, quantitative models, validation gates and source-aware presentation | Live analytical product; public repository is a documentation-only engineering case study |

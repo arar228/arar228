@@ -1,86 +1,60 @@
-<img src="assets/cover.svg" width="100%" alt="nepotato — full-stack development. Interfaces, systems, delivery." />
+<img src="assets/cover.svg" width="100%" alt="nepotato — product engineering, infrastructure and interactive systems" />
 
-[Русская версия](README.ru.md) · [Memora](https://memorasolutions.ru) · [RuMarket](https://statik.obdrisher.ru/) · [Repositories](https://github.com/arar228?tab=repositories)
+<p align="center">
+  <a href="README.ru.md">Русский</a> ·
+  <a href="PROJECTS.md">Project index</a> ·
+  <a href="docs/portfolio.en.md">Detailed case studies</a> ·
+  <a href="https://github.com/arar228?tab=repositories">Repositories</a>
+</p>
 
-[Browse the public project catalogue](PROJECTS.md) — product case studies, frontend
-experiments, Telegram tools, learning material and ecosystem work.
+## Hi, I'm nepotato
 
-I build web products, Telegram Mini Apps and interactive tools. My projects connect **React interfaces, server-side logic and data storage** with tests and release workflows.
+I build web products, Telegram Mini Apps and the infrastructure behind them.
+My work connects **interfaces, backend systems and delivery**: from React and
+TypeScript to Python automation, data pipelines and Linux services.
 
-## Project portfolio
+I use AI-assisted development to move from a product idea to code, tests and
+deployment. The repositories below show the engineering decisions, working
+examples and verification scope of each project.
 
-### Memora Solutions
+<p>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&amp;logo=react&amp;logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Node.js-417E38?style=flat-square&amp;logo=nodedotjs&amp;logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&amp;logo=postgresql&amp;logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Linux-111B21?style=flat-square&amp;logo=linux&amp;logoColor=white" alt="Linux" />
+</p>
 
-**Product platform · React / Node.js / PostgreSQL / Python / Electron**
+## Selected work
 
-A connected set of productivity tools: a web/desktop focus timer, travel-deal discovery, Kanban and Telegram integrations.
+| Project | Engineering focus | Explore |
+| :--- | :--- | :--- |
+| **[Memora Solutions](https://github.com/arar228/memora-solutions)** | Web/desktop productivity tools, shared UI, payment-event handling and release recovery | [Product](https://memorasolutions.ru) · [Architecture](https://github.com/arar228/memora-solutions/blob/master/docs/architecture.md) |
+| **[VPN Bridge](https://github.com/arar228/vpn-bridge-showcase)** | Two-node encrypted transport, Hysteria2/REALITY, configuration generation and alert state transitions | [Security model](https://github.com/arar228/vpn-bridge-showcase/blob/main/docs/security.md) · [Case study](https://github.com/arar228/vpn-bridge-showcase/blob/main/docs/case-study.md) |
+| **[RuMarket](https://github.com/arar228/rumarket-showcase)** | Economic-data collection, freshness/quality checks and source-aware analytical presentation | [Product](https://statik.obdrisher.ru/) · [Architecture](https://github.com/arar228/rumarket-showcase/blob/main/docs/architecture.md) |
+| **[Night Arcade](https://github.com/arar228/potato)** | Telegram Mini App, typed API contracts, virtual-point ledger and server-owned game rules | [Engineering case](https://github.com/arar228/potato/blob/main/docs/CASE_STUDY.md) |
+| **[Procedural GPU](https://github.com/arar228/nepotato-threejs-gpu)** | Editable Three.js geometry, reusable model API and browser rendering | [Interactive demo](https://arar228.github.io/nepotato-threejs-gpu/) |
+| **[TON Subscriptions Protocol](https://github.com/arar228/ton-subscriptions-protocol)** | Recurring-payment channel research, asynchronous state transitions and sandbox tests | [Contracts and tests](https://github.com/arar228/ton-subscriptions-protocol) |
 
-- A shared Pomodoro renderer with separate browser and desktop storage adapters.
-- Payment-event verification, idempotent delivery and recovery paths in the Travel Radar service.
-- Release checks tied to an exact commit, health checks and application rollback on the VPS.
+Memora and RuMarket have product links; the repositories describe their deployment
+and review scope. VPN Bridge is a sanitized public showcase of a privately operated
+system. Night Arcade is a play-money prototype. TON Subscriptions is contract
+research; real-funds use requires an independent security audit.
 
-[Live product](https://memorasolutions.ru) · [Source](https://github.com/arar228/memora-solutions) · [Architecture](https://github.com/arar228/memora-solutions/blob/master/docs/architecture.md) · [CI](https://github.com/arar228/memora-solutions/actions/workflows/ci.yml)
+## How I approach a system
 
-### Night Arcade
+**Product → contracts → implementation → verification → delivery.**
 
-**Full-stack prototype · TypeScript / React / Fastify / Prisma / PostgreSQL**
+- Make state ownership explicit: API contracts, access control and storage boundaries.
+- Design recovery paths: retries, idempotent events, health checks and deployment rollback.
+- Keep projects reviewable: setup instructions, architecture notes and reproducible checks.
+- Describe security through trust boundaries and actual protocols.
 
-A Telegram Mini App built around virtual game points, a ledger, daily rewards and server-resolved game rounds. The public repository is named `potato`.
+## Beyond the main projects
 
-- Shared Zod contracts connect the web client and API.
-- The server owns balances and game outcomes; the client presents the result.
-- Unit tests exercise game rules, authentication and wallet-service behavior with mocked persistence.
+The [public project index](PROJECTS.md) includes frontend experiments,
+Telegram tools, Python exercises and ecosystem work. The
+[detailed portfolio](docs/portfolio.en.md) explains the original cases in depth.
 
-**Scope:** play-money prototype. PvP is an Arcade Bot demonstration; production multiplayer and real-payment readiness are outside the verified scope.
-
-[Source & setup](https://github.com/arar228/potato) · [Engineering case study](https://github.com/arar228/potato/blob/main/docs/CASE_STUDY.md)
-
-### Procedural GPU
-
-**Creative engineering · TypeScript / Three.js / WebGL**
-
-An editable triple-fan graphics card built from procedural geometry. A reusable model API sits alongside an interactive browser demo.
-
-<a href="https://arar228.github.io/nepotato-threejs-gpu/"><img src="https://raw.githubusercontent.com/arar228/nepotato-threejs-gpu/main/docs/preview.png" width="640" alt="Preview of the procedural triple-fan GPU model; open the interactive demo" /></a>
-
-[Interactive demo](https://arar228.github.io/nepotato-threejs-gpu/) · [Source & API](https://github.com/arar228/nepotato-threejs-gpu)
-
-### RuMarket
-
-**Economic intelligence · Python / pandas / NumPy / SciPy / JavaScript**
-
-An explainable, continuously updated monitor of the Russian economy and financial markets. It combines official statistics, market prices, credit conditions and corporate reporting in one source-aware interface.
-
-- Automated collection from Moscow Exchange, the Bank of Russia, Rosstat and the Ministry of Finance.
-- Validation gates for freshness, coverage, plausible ranges and required fiscal indicators.
-- Scheduled rebuilds, health snapshots, last-known-good data and delivery recovery checks.
-
-[Live product](https://statik.obdrisher.ru/) · [Engineering case study](https://github.com/arar228/rumarket-showcase) · [Architecture](https://github.com/arar228/rumarket-showcase/blob/main/docs/architecture.md)
-
-### TON Subscriptions Protocol
-
-**Contract engineering · Tolk / TypeScript / TON Sandbox**
-
-Recurring-payment channel research: deterministic addresses, timed state transitions, pause/resume semantics and tests for bounced transfers.
-
-**Scope:** the public repository covers contracts and sandbox tests. Real-funds use requires an independent security audit; the separate application services are outside this repository.
-
-[Source & architecture](https://github.com/arar228/ton-subscriptions-protocol) · [Sandbox tests](https://github.com/arar228/ton-subscriptions-protocol/tree/master/tests)
-
-## Engineering decisions to explore
-
-| Question | Where to look |
-| --- | --- |
-| How can one UI support web and desktop persistence? | [Memora component map](https://github.com/arar228/memora-solutions/blob/master/docs/component-map.md) |
-| How are payment retries and release rollback handled? | [Memora operations guide](https://github.com/arar228/memora-solutions/blob/master/docs/operations.md) |
-| Which rules belong on the server? | [Night Arcade case study](https://github.com/arar228/potato/blob/main/docs/CASE_STUDY.md) |
-| How can an automated analytical pipeline expose source quality and freshness? | [RuMarket architecture](https://github.com/arar228/rumarket-showcase/blob/main/docs/architecture.md) |
-| What happens when an asynchronous transfer bounces? | [Channel bounce tests](https://github.com/arar228/ton-subscriptions-protocol/blob/master/tests/ChannelJettonBounce.spec.ts) |
-
-## Stack across these projects
-
-**Frontend** — TypeScript, React, Vite, Tailwind CSS, Three.js<br>
-**Backend & data** — Node.js, Fastify, Python, PostgreSQL, Prisma, Zod, pandas, NumPy, SciPy<br>
-**Delivery & verification** — GitHub Actions, unit tests, reproducible builds, health checks
-
-Each repository documents its own setup and verification boundaries. Live demos, local prototypes and contract experiments are labeled separately so the code can be reviewed in context.
+<a href="https://arar228.github.io/nepotato-threejs-gpu/"><img src="https://raw.githubusercontent.com/arar228/nepotato-threejs-gpu/main/docs/preview.png" width="640" alt="Procedural GPU — open the interactive Three.js demo" /></a>
