@@ -10,6 +10,10 @@
 
 ## Hi, I'm nepotato
 
+I'm a **TON on-chain investigator** and full-stack product builder.
+I research blockchain activity and publish source-code and on-chain analyses as
+[@ton_potato](https://x.com/ton_potato).
+
 I build web products, Telegram Mini Apps and the infrastructure behind them.
 My work connects **interfaces, backend systems and delivery**: from React and
 TypeScript to Python automation, data pipelines and Linux services.
