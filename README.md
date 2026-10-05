@@ -4,7 +4,8 @@
   <a href="README.ru.md">Русский</a> ·
   <a href="PROJECTS.md">Project index</a> ·
   <a href="docs/portfolio.en.md">Detailed case studies</a> ·
-  <a href="https://github.com/arar228?tab=repositories">Repositories</a>
+  <a href="https://github.com/arar228?tab=repositories">Repositories</a> ·
+  <a href="https://x.com/ton_potato">X / @ton_potato</a>
 </p>
 
 ## Hi, I'm nepotato
@@ -41,6 +42,20 @@ Memora and RuMarket have product links; the repositories describe their deployme
 and review scope. VPN Bridge is a sanitized public showcase of a privately operated
 system. Night Arcade is a play-money prototype. TON Subscriptions is contract
 research; real-funds use requires an independent security audit.
+
+## Selected research & publications
+
+I publish source-code reviews and TON on-chain analysis as
+[@ton_potato](https://x.com/ton_potato). Selected work:
+
+| Publication | Research contribution | Source |
+| :--- | :--- | :--- |
+| My Wallet · NFT validation | Compared upstream code revisions and documented local tests of NFT ownership checks before signing | [Read the analysis](https://x.com/ton_potato/status/2107014919971361084) |
+| Telegram Desktop · web-login links | Reviewed an upstream security change and explained login-token cleanup and the distinction between source changes and released builds | [Read the analysis](https://x.com/ton_potato/status/2106795206397788169) |
+| TON · USDT supply | Reconciled token-contract and treasury data with the issuer's transparency report; separated circulating supply from issuer inventory | [Read the analysis](https://x.com/ton_potato/status/2106409334619955430) |
+
+These are independently published analyses. The software fixes discussed in the
+posts were implemented by their respective upstream maintainers.
 
 ## How I approach a system
 
